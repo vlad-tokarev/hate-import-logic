@@ -1,4 +1,5 @@
 from hate_import_logic.app import App
+from hate_import_logic.redis import Redis
 from hate_import_logic.webserver import WebServer
 
 
@@ -18,7 +19,7 @@ def init_config() -> Config:
     ...
 
 
-def init_redis_from_config(config: Config) -> WebServer:
+def init_redis_from_config(config: Config) -> Redis:
     ...
 
 webserver_stop_signal = ...
