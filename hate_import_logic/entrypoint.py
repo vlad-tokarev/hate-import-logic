@@ -18,10 +18,6 @@ def init_config() -> Config:
     ...
 
 
-def init_webserver_from_config(config: Config) -> WebServer:
-    ...
-
-
 def init_redis_from_config(config: Config) -> WebServer:
     ...
 
