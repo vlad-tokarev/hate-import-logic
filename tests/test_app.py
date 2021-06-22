@@ -10,9 +10,6 @@ def mock_redis() -> Redis:
     raise NotImplementedError
 
 
-def run_in_background(app: App):
-    raise NotImplementedError
-
 
 class AppHttpClient:
     ...
